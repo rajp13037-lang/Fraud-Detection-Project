@@ -34,7 +34,7 @@ Matplotlib
 Seaborn
 Joblib
 Git & GitHub
-'''
+```
 Project Structure:
 Fraud-Detection-Project
 │
@@ -53,9 +53,9 @@ Fraud-Detection-Project
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-'''
+```
 Description of Files:
-'''
+```
 1. preprocessing.py
 Loads the dataset
 Splits data into training and testing sets
@@ -81,7 +81,7 @@ Model training
 Model evaluation
 Model saving
 Machine Learning Approach
-'''
+```
 The project follows a structured machine learning pipeline:
 
 1. Load and explore transaction data
@@ -133,4 +133,5 @@ Future Improvements:
 
 Author
 Raj Parmar
+
 
