@@ -3,18 +3,13 @@ import pandas as pd
 import joblib
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.metrics import confusion_matrix, roc_curve, auc
 
-# ---------------------------------------------------
-# Page Config
-# ---------------------------------------------------
+@st.cache_data
+def load_data():
+    url = "https://storage.googleapis.com/download.tensorflow.org/data/creditcard.csv"
+    return pd.read_csv(url)
 
-st.set_page_config(
-    page_title="Fraud Detection Dashboard",
-    page_icon="💳",
-    layout="wide"
-)
-
+data = load_data()
 # ---------------------------------------------------
 # Load Data
 # ---------------------------------------------------
