@@ -21,10 +21,8 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("data/creditcard.csv")
-
-data = load_data()
-
+    url = "https://storage.googleapis.com/download.tensorflow.org/data/creditcard.csv"
+    return pd.read_csv(url)
 # ---------------------------------------------------
 # Load Model
 # ---------------------------------------------------
