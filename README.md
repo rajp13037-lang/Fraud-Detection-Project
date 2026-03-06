@@ -1,4 +1,4 @@
-Credit Card Fraud Detection System
+# Credit Card Fraud Detection using Machine Learning
 
 Project Overview:
 This project builds a machine learning system to detect fraudulent credit card transactions. Fraud detection is a critical problem in the financial industry because fraudulent transactions cause significant financial losses for banks and customers.
@@ -133,5 +133,6 @@ Future Improvements:
 
 Author
 Raj Parmar
+
 
 
